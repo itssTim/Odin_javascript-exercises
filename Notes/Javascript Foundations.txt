@@ -1,0 +1,39 @@
+Javascript Foundations
+
+Function Basics:
+    Assignment:
+    #Write a function called add7 that takes one number and returns that number + 7.
+        function add7 (a, ) {return a+7;}
+    #Write a function called multiply that takes 2 numbers and returns their product.
+        function multiply (a, b) {return a*b;}
+    #Write a function called capitalize that takes a string and returns that string with only the first letter capitalized. Make sure that it can take strings that are lowercase, UPPERCASE or BoTh.
+        function capitalize (String) {return String.toUpperCase(atposition(0)) + String.toLowerCase(slice(2))}
+    #Write a function called lastLetter that takes a string and returns the very last letter of that string:
+        lastLetter("abcd") should return "d"
+        function lastLetter (y) {return String(y).at(-1)}
+
+    Knowledge Check
+        What are functions useful for?
+            To enable the creation of reusable blocks of code that can be called wherever needed.
+        How do you invoke a function?
+            Including the name of the function in the code followed by (arg)
+        What are anonymous functions?
+            Anonymous functions are functions with no names. Often expect to receive another function as a parameter
+        What is function scope?
+            Scope = current context of execution in which values and functions can be referenced
+                3 types:
+                Global - visible anywhere within the script
+                Module - only visible for code running specific module types
+                Function - created and visible within a function
+        What are return values?
+            Return values are values a function returns when it completes
+        What are arrow functions?
+            Arrow functions are a syntax for creating functions.
+            Ex. Let func = (arg1, arg2, ...) => expression; 
+                It passes the arg to the expression on the right and returns the results
+        What is the difference between a function declaration and a function expression?
+            Function declaration:
+                Declared as a separate statement in the main code and is Global
+            Function Expression:
+                Created inside an expression or another syntax and is created and usable only when the execution reaches it and beyond
+            
